@@ -1,7 +1,7 @@
 <?php
-function tambah($a,$b){echo $a+$b;}
-function kurang($a,$b){echo $a-$b;}
-    tambah(2,4);
-    kurang(4,1);
-    tambah(2,2);
+$a=['a','b','c','d','e','f','g','h','i','j'];
+    for($i=0;$i<7;$i++){echo $a[$i];
+    }
+    foreach($a as $key=>$val){echo $val;
+    }
 ?>
